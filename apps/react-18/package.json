@@ -1,0 +1,12 @@
+{
+  "name": "react-18",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild app.jsx --bundle --outfile=../client/out/react-18/index.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
